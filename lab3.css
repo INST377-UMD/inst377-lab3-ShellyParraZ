@@ -1,8 +1,21 @@
 body {
-    background-color: rgb(220, 162, 220);
+  background-color: rgb(220, 162, 220);
 }
-header, footer {
-    text-align: center;
-    background-color: rgb(221, 238, 180);
-    color: rgb(123, 16, 82);
+header,
+footer {
+  text-align: center;
+  background-color: rgb(221, 238, 180);
+  color: rgb(123, 16, 82);
+}
+#main-nav {
+    background-color: rgb(236, 188, 231)
+}
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+#main-nav li:hover{
+    background-color: rgb(123, 16, 82);
+    color: white;
 }
