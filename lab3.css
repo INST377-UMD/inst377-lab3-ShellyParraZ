@@ -8,14 +8,20 @@ footer {
   color: rgb(123, 16, 82);
 }
 #main-nav {
-    background-color: rgb(236, 188, 231)
+  background-color: rgb(236, 188, 231);
 }
 #main-nav li {
-    display: inline-block;
-    position: relative;
-    padding: 10px;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
 }
-#main-nav li:hover{
-    background-color: rgb(123, 16, 82);
-    color: white;
+#main-nav li:hover {
+  background-color: rgb(123, 16, 82);
+  color: white;
+  font-weight: bold;
+}
+.content-box {
+    background-color: pink;
+    border: grey;
+    border-radius: 15px;
 }

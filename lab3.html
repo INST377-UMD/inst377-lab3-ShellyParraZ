@@ -10,13 +10,31 @@
     </header>
     <!--Navigation Section-->
     <nav id="main-nav">
-        <ul>
-            <li>Chess</li>
-            <li>Solitaire</li>
-            <li>Checkers</li>
-        </ul>
-
+      <ul>
+        <li>Chess</li>
+        <li>Solitaire</li>
+        <li>Checkers</li>
+      </ul>
     </nav>
+    <!--Main Content Area-->
+    <form name="rps form">
+      <div class="main-container">
+        <div class="content-box">
+          <h1>Select either rock, paper, or scissors:</h1>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+          <br />
+          <label for="rpsChoice">Choice:</label>
+          <select id="rpsChoice" name="rpsChoice">
+            <option value="rock">rock</option>
+            <option value="paper">paper</option>
+            <option value="scissors">scissors</option>
+          </select>
+          <br />
+          <input type="submit" value="submit" />
+        </div>
+      </div>
+    </form>
 
     <!--Footer-->
   </body>
