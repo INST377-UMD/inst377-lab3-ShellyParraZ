@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(220, 162, 220);
+}
+header, footer {
+    text-align: center;
+    background-color: rgb(221, 238, 180);
+    color: rgb(123, 16, 82);
+}
