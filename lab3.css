@@ -18,6 +18,8 @@ footer {
   display: inline-block;
   position: relative;
   padding: 10px;
+  color: black;
+  background-color: rgb(236, 188, 231);
 }
 #main-nav li:hover {
   background-color: rgb(123, 16, 82);
