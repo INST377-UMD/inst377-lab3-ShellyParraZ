@@ -7,6 +7,9 @@ footer {
   background-color: rgb(221, 238, 180);
   color: rgb(123, 16, 82);
   clear: both;
+  margin: 5px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #main-nav {
   background-color: rgb(236, 188, 231);
@@ -29,6 +32,7 @@ footer {
   padding: 5px;
   width: 70%;
   float: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #rules {
   float: right;
@@ -38,7 +42,13 @@ footer {
   border-radius: 10px;
   margin: 5px;
   padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #rules:hover {
   background-color: rgb(252, 255, 188);
+}
+input:focus {
+  width: 20%;
+  background-color: rgb(255, 123, 123);
+  color: black;
 }
